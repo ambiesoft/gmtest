@@ -1,6 +1,7 @@
 #pragma once
 class Turtle {
-	virtual ~Turtle() {}
+public:
+
 	virtual void PenUp() = 0;
 	virtual void PenDown() = 0;
 	virtual void Forward(int distance) = 0;
@@ -8,4 +9,6 @@ class Turtle {
 	virtual void GoTo(int x, int y) = 0;
 	virtual int GetX() const = 0;
 	virtual int GetY() const = 0;
+
+	virtual ~Turtle() {}
 };

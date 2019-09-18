@@ -15,16 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="gmtest.cpp">
+    <ClCompile Include="testproj.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TurtleImpl.hpp">
-      <Filter>Header Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Turtle.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
