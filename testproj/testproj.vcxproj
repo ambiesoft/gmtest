@@ -158,9 +158,10 @@
     <ClCompile Include="..\googletest\googlemock\src\gmock-all.cc" />
     <ClCompile Include="..\googletest\googletest\src\gtest-all.cc" />
     <ClCompile Include="..\googletest\googletest\src\gtest_main.cc" />
-    <ClCompile Include="basictest.cpp" />
+    <ClCompile Include="basictest_deployed.cpp" />
     <ClCompile Include="faketest.cpp" />
     <ClCompile Include="mocktest.cpp" />
+    <ClCompile Include="streamtest.cpp" />
     <ClCompile Include="thattest.cpp" />
   </ItemGroup>
   <ItemGroup>
